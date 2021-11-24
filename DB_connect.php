@@ -1,8 +1,8 @@
 <?php
-$dbhost = "mysql01.dawdo.beep.pl";
-$dbuser = "dawdo7";
-$dbpassword = "zaq1@WSXcde3";
-$dbname = "db_zad7";
+$dbhost = "************";
+$dbuser = "************";
+$dbpassword = "************";
+$dbname = "************";
 
 $DB_connection = @new mysqli($dbhost, $dbuser, $dbpassword, $dbname) or die("Błąd połączenia z $dbname");
 mysqli_set_charset($DB_connection, "UTF-8");
