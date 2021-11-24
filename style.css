@@ -1,0 +1,64 @@
+html{ font-family: 'Lato', sans-serif; }
+.menu{
+     position:absolute;
+     top:0px;
+     left:0px;     
+     background-color:#4b4bff;
+}
+.menu>form>input{cursor:pointer;}
+div.form>form,.upload>form{
+     display:flex;
+     flex-flow:column;
+     width:fit-content;
+     padding:15px;
+}
+div.form>form>label,.upload>form>label{
+     display:flex;
+     padding:5px;
+     flex-flow: column;
+}
+div.form>form>label>input,.upload>form>input{padding:4px;}
+div.form>form>button,.upload>form>button{
+     padding:8px 15px;
+     margin:5px;
+     width:fit-content;
+}
+form.menu>#submit{
+     background-color: transparent;
+     padding: 25px 10px;
+     width:fit-content;
+     height:100%;
+     border:none;
+     color:white;
+     font-size:16px;
+}
+div.upload{ width:fit-content; padding:15px 0px; }
+.storage>form{
+     position:relative;
+     width:100%;
+     display:grid;
+     grid-template-columns: repeat(auto-fit,minmax(90px,150px));
+}
+.nav,.folder,.file{
+     cursor:pointer;
+     width:100px;
+     height:100px;
+     margin:15px;
+     display: inline-block;
+     border:none;
+     box-shadow: -2px 2px 5px rgba(30,30,30,0.1);
+     color:white;
+     font-size: 16px;
+     word-break: break-word;
+     white-space: normal;
+}
+.nav{
+     width:50px;
+     height:50px;
+     text-overflow: clip;
+     border-radius: 50%;
+     background-color: rgba(245,245,245);
+     color:black;
+}    
+.folder{  background-color:rgba(50,50,120,0.8) ; } 
+.file{ background-color:rgba(150,150,20,0.6) ; }
